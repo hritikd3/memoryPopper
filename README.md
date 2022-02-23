@@ -6,4 +6,4 @@
 
 ## once the player chose wrong color he get Eliminated and again game starts.
 
-<img src="ss.png" alt="game_status">
+<img src="ss.png" alt="game_status"> 
