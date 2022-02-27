@@ -1,20 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive, sans-serif;
+}
+
 body {
   text-align: center;
   background-color: #2b065c;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.5em 0;
 }
 
 #level-title {
-  font-family: "", cursive;
   font-size: 2rem;
-  margin: 1%;
   color: aliceblue;
   line-height: 1.3;
 }
 
 .container {
-  display: block;
-  width: 70%;
-  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
@@ -25,6 +48,21 @@ body {
 
   border: 9px solid rgb(255, 255, 255);
   border-radius: 20%;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #170530, -20px -20px 60px #56229b;
+}
+
+button {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  width: 100%;
+  max-width: 100px;
+  text-align: center;
+  font-size: 1em;
+  color: #2b065c;
+  background-color: #fff;
+  border-radius: 6px;
+  border: none;
 }
 
 .game-over {
@@ -57,10 +95,6 @@ body {
   .btn {
     width: 100px;
     height: 100px;
-  }
-  .container {
-    width: 100%;
-    padding: 23px;
   }
   #level-title {
     font-size: 1.6rem;
